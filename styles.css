@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/14/06/66/14066651e10a710d8a6a09b450eb1dba.jpg);
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.price {
+    padding: 20px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    margin: 10px 0;
+    color: grey;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 30px;
+    color: skyblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.button{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    background-color: lightskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button2{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    background-color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button3{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color: red;
+    transform:scale(1.2);
+}
